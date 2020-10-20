@@ -249,7 +249,7 @@ body, button, input {
 
 @media screen and (max-width: 950px) {
   .screen-body {
-    padding: 40px;
+    padding: 0px;
   }
 
   .screen-body-item {
@@ -420,6 +420,7 @@ ul {
       top: 38px;
       background-color: #fff;
       width: 100%;
+	  padding: 0px;
       height: calc(100vh - 55px);
       transform: translate(-101%);
       text-align: center;
