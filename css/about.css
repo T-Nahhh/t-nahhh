@@ -18,6 +18,7 @@ ul {
 }
 
 li {
+  margin-left: 10px;
   list-style-type: none;
 }
 
@@ -301,11 +302,11 @@ a {
     overflow: hidden;
 }
 
- ul {
+.navbar ul {
     list-style: none;
-    display: flex;
-	justify-content: space-around;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    align-self: end;
 }
 
 .nav-item a {
