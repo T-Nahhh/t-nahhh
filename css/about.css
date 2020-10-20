@@ -291,6 +291,7 @@ a {
     grid-template-columns: 1fr;
     align-items: center;
     overflow: hidden;
+	height: 100px;
 }
 
 ul {
