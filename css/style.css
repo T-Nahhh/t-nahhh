@@ -185,7 +185,13 @@ img:hover {
     justify-content: center;
 }
 
+.social-media-icon li {
+	list-style: none;
+	padding: 10px;
+}
+
 .footer-text {
+	padding: 0px;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 15px;
@@ -214,16 +220,6 @@ img:hover {
 }
 
 
-a {
-    text-decoration: none;
-    color: rgba(0, 0, 0, .6);
-    text-transform: uppercase;
-    width: 220px;
-    height: 50px;
-    margin: auto;
-}
-
-
 /* NAVIGATION */
 
 .nav-wrapper {
@@ -247,20 +243,15 @@ a {
 
 /* NAVIGATION BAR */
 
-.begone {
-  transform: translateY(-100%);
-}
-
 .navbar {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
-	transition: transform 1s;
     overflow: hidden;
 	height: 70px;
 }
 
-ul {
+.navbar ul {
     list-style: none;
     display: flex;
 	justify-content: space-evenly;
@@ -272,6 +263,7 @@ ul {
 }
 
 .nav-item a {
+	text-transform: uppercase;
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
     font-size: 20px;
