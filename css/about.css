@@ -209,10 +209,6 @@ body, button, input {
 	justify-content: center;
 }
 
-.social-media-icon li {
-	padding: 10px;
-}
-
 .footer-text {
 	font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -249,7 +245,7 @@ body, button, input {
 
 @media screen and (max-width: 950px) {
   .screen-body {
-    padding: 0px;
+    padding: 40px;
   }
 
   .screen-body-item {
@@ -413,6 +409,7 @@ ul {
 
 
   .navbar ul {
+	  padding: 0px;
       display: flex;
       flex-direction: column;
       position: fixed;
@@ -420,22 +417,12 @@ ul {
       top: 38px;
       background-color: #fff;
       width: 100%;
-	  padding: 0px;
       height: calc(100vh - 55px);
       transform: translate(-101%);
       text-align: center;
       overflow: hidden;
   }
 
-/*
-  .nav-icon {
-	  display: flex;
-	  flex-direction: row;
-	  justify-content: space-betweem;
-	  margin-top: auto;
-	}
-*/
-	
   .navbar li {
       padding: 15px;
   }
