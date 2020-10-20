@@ -55,10 +55,14 @@ body {
   font-size: 12px;
 }
 
-body, button, input {
+body, button {
   font-family: 'Nunito', sans-serif;
   font-weight: 400;
   letter-spacing: 1.4px;
+}
+
+input {
+	color: #313131;
 }
 
 .background {
