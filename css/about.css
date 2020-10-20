@@ -422,6 +422,15 @@ ul {
       overflow: hidden;
   }
 
+/*
+  .nav-icon {
+	  display: flex;
+	  flex-direction: row;
+	  justify-content: space-betweem;
+	  margin-top: auto;
+	}
+*/
+	
   .navbar li {
       padding: 15px;
   }
