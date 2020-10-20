@@ -209,6 +209,10 @@ body, button, input {
 	justify-content: center;
 }
 
+.social-media-icon li {
+	padding: 10px;
+}
+
 .footer-text {
 	font-family: 'Nunito', sans-serif;
     font-weight: 600;

@@ -185,6 +185,10 @@ img:hover {
     justify-content: center;
 }
 
+.social-media-icon li {
+	padding: 10px;
+}
+
 .footer-text {
     font-family: 'Nunito', sans-serif;
     font-weight: 600;
@@ -391,7 +395,7 @@ ul {
   .nav-icon {
 	  display: flex;
 	  flex-direction: row;
-	  justify-content: space-around;
+	  justify-content: space-betweem;
 	  margin-top: auto;
 	}
 */
