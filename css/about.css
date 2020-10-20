@@ -13,15 +13,6 @@ body {
 }
 
 
-ul {
-  display: flex;
-}
-
-li {
-  margin-left: 10px;
-  list-style-type: none;
-}
-
 /* PROFILE */
 
 .profile-picture img {
@@ -302,11 +293,15 @@ a {
     overflow: hidden;
 }
 
-.navbar ul {
+ul {
     list-style: none;
-    display: grid;
+    display: flex;
+	justify-content: space-around;
+	align-items: center;
+/*  
     grid-template-columns: repeat(6, 1fr);
     align-self: end;
+*/
 }
 
 .nav-item a {
